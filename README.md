@@ -40,6 +40,7 @@ This is a pretty standard module for any travel recommendation system. The objec
 This is the novel module that is at the core of our project. The objective of this module is to obtain inputs for the subjective constraints from the user. The inputs corresponding to every parameter within this module is two folds: 
 - First, a binary input that makes the user choose between two option based on the given question.  
 - And second, taking the input corresponding to the importance of the question. 
+
 These two inputs taken in for four parameters: 
 - Religious interest
 - Type of traveler
