@@ -45,6 +45,7 @@ These two inputs taken in for four parameters:
 - Type of traveler
 - State of destination
 - Type of destination 
+
 These preferences makes up the subjective preference analysis module.
 
 ### Algorithm
