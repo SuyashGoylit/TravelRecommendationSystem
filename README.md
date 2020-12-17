@@ -1,4 +1,4 @@
-# TravelRecommendationSystem [TRS]
+# Travel Recommendation System [TRS]
 Repository here, explains the working of Travel Recommendation System (TRS), which aims to provide personalized recommendations to every user. TRS employs a subjective preference algorithm, in conjunction with the objective preferece used in the commonly used recommendation systems, to provide travel suggestions more curated towards the individual user.
 
 ## Drawbacks of currently existing systems
@@ -22,6 +22,7 @@ The first step was to gather the data and organize it in the form of a database.
 - Main attraction
 - Description
 - Top places to visit
+
 Scraping on the other two fronts was much less detailed, with each of them consisting of only four attributes.
 
 For image scraping, shutil module came in very handy.
@@ -48,3 +49,9 @@ These preferences makes up the subjective preference analysis module.
 
 ### Algorithm
 The final step is to match the user preference gathered by the objective and subjective preference analysis modules with the pre-classified database to come up with fine tuned personalized suggestion. The inputs from the objective side of things can be handled very easily, as they are used to weed out the destinations from the database that doesn't fall under the chosen preferences. Dealing with the subjective preferences can be a little tricky, and this where the algorithm does its job. The basic idea of the algorithm is that inputs taken from the user are divided into two values (-1 and 1) for each parameter. Same is done with the parameters in the database. To come up with the best suggestion, value of destination and user preference are multiplied for each parameter, and then all these individual values are summed up. The destination with highest numeric value is suggested to the user.
+
+## Future Scope
+Although I have successfully achieved what I set out to do, there's always minor tweaks that can be made to futher improve the project. Here are few of them I can see in the near future:
+- The most obvious one is adding more places to the database.
+- Adding more parameters for subjective preference analysis.
+- Instead of taking binary inputs from the user, taking preference in form of a description of the destination they want to visit.
