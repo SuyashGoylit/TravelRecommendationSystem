@@ -3,7 +3,7 @@ Repository here, explains the working of Travel Recommendation System (TRS), whi
 
 ## Drawbacks of currently existing systems
 - Focus is primarily on the objective constraints, i.e., Budget, time of travel, duration of travel.
-- SUbjective preference is compromised for the ease of use.
+- Subjective preference is compromised for the ease of use.
 - Travel suggestions are not actually personalized, rather dependent on similarity between multiple users.
 - Require immense user database to provide any meaningful recommendation.
 
@@ -42,10 +42,10 @@ This is the novel module that is at the core of our project. The objective of th
 - And second, taking the input corresponding to the importance of the question. 
 
 These two inputs taken in for four parameters: 
-- Religious interest
-- Type of traveler
-- State of destination
-- Type of destination 
+- Religious interest (religious / non-religious)
+- Type of traveler (conventional / adventurous)
+- State of destination (noisy / serene)
+- Type of destination (artificial fun / natural beauty)
 
 These preferences makes up the subjective preference analysis module.
 
