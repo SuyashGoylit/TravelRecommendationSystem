@@ -68,7 +68,7 @@ Following is a screenshot of sample inputs for subjective evaluation.
 
 <p align = "center">
 <img src = "https://github.com/SuyashGoylit/TravelRecommendationSystem/blob/main/Images/Subjective%20Analysis.jpg">
-/p>
+</p>
 
 ### Algorithm
 The final step is to match the user preference gathered by the objective and subjective preference analysis modules with the pre-classified database to come up with fine tuned personalized suggestion. The inputs from the objective side of things can be handled very easily, as they are used to weed out the destinations from the database that doesn't fall under the chosen preferences. Dealing with the subjective preferences can be a little tricky, and this where the algorithm does its job. The basic idea of the algorithm is that inputs taken from the user are divided into two values (-1 and 1) for each parameter. Same is done with the parameters in the database. To come up with the best suggestion, value of destination and user preference are multiplied for each parameter, and then all these individual values are summed up. The destination with highest numeric value is suggested to the user.
@@ -78,7 +78,7 @@ Based on the user inputs for objective and subjective analysis parameters, the a
 
 <p align = "center">
 <img src = "https://github.com/SuyashGoylit/TravelRecommendationSystem/blob/main/Images/Sample%20Output.jpg">
-/p>
+</p>
 
 ## Future Scope
 Although I have successfully achieved what I set out to do, there's always minor tweaks that can be made to futher improve the project. Here are few of them I can see in the near future:
