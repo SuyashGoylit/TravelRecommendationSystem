@@ -11,7 +11,7 @@ Repository here, explains the working of Travel Recommendation System (TRS), whi
 ## Proposed System
 Starting with the awareness set, i.e., all the destination spots present in the database, the system will narrow it down to the final recommendation. Available-awareness set, the places user can visit based on objective constraints, will be obtained in the first step. Further applying the subjective constraints, relevant set, the places user want to visit, will be obtained. The final step is to compare the destination spots present in the relevant set and recommend the most suitable ones to the user.
 
-<p align = "centre"
+<p align = "centre">
 img src = "https://github.com/SuyashGoylit/TravelRecommendationSystem/blob/main/Images/Proposed%20System.JPG"
 </p>
 
@@ -47,7 +47,7 @@ This is a pretty standard module for any travel recommendation system. The objec
 
 Following is a screenshot of sample inputs for objective constraint evaluation.
 
-<p align = "center"
+<p align = "center">
 img src = "https://github.com/SuyashGoylit/TravelRecommendationSystem/blob/main/Images/Objective%20Analysis.jpg"
 </p>
 
@@ -66,7 +66,7 @@ These preferences makes up the subjective preference analysis module.
 
 Following is a screenshot of sample inputs for subjective evaluation.
 
-<p align = "center"
+<p align = "center">
 img src = "https://github.com/SuyashGoylit/TravelRecommendationSystem/blob/main/Images/Subjective%20Analysis.jpg"
 /p>
 
@@ -76,7 +76,7 @@ The final step is to match the user preference gathered by the objective and sub
 ### Output
 Based on the user inputs for objective and subjective analysis parameters, the algorithm recommends the best three destinations for the user.
 
-<p align = "center"
+<p align = "center">
 img src = "https://github.com/SuyashGoylit/TravelRecommendationSystem/blob/main/Images/Sample%20Output.jpg"
 /p>
 
